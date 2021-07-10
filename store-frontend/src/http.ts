@@ -1,4 +1,4 @@
-  import axios from "axios";
+import axios from "axios";
 
 const http = axios.create({
     baseURL: process.env.NEXT_PUBLIC_STORE_API_URL
